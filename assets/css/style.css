@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+ul {
+    width: 300px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    cursor: pointer;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul li:hover a {
+    color: blue;
+    text-decoration: underline;
+}
+
+ul li a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: #fff;
+    border: navajowhite;
+}
+
+button img{
+    width: 70px;
+    height: 70px;
+}
